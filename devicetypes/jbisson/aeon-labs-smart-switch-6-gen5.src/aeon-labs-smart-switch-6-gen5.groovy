@@ -143,19 +143,19 @@ metadata {
         }
 
         valueTile("currentEnergyCostHour", "currentEnergyCostHour", width: 1, height: 1, decoration: "flat") {
-            state "default", label: 'Per\nHour\n$${currentValue}'
+            state "default", label: 'Per\nHour\n€${currentValue}'
         }
 
         valueTile("currentEnergyCostWeek", "currentEnergyCostWeek", width: 1, height: 1, decoration: "flat") {
-            state "default", label: 'Per\nWeek\n$${currentValue}'
+            state "default", label: 'Per\nWeek\n€${currentValue}'
         }
 
         valueTile("currentEnergyCostMonth", "currentEnergyCostMonth", width: 1, height: 1, decoration: "flat") {
-            state "default", label: 'Per\nMonth\n$${currentValue}'
+            state "default", label: 'Per\nMonth\n€${currentValue}'
         }
 
         valueTile("currentEnergyCostYear", "currentEnergyCostYear", width: 1, height: 1, decoration: "flat") {
-            state "default", label: 'Per\nYear\n$${currentValue}'
+            state "default", label: 'Per\nYear\n€${currentValue}'
         }
 
         valueTile("cumulativeEnergyCostTxt", "cumulativeEnergyCostTxt", width: 2, height: 1, decoration: "flat") {
@@ -163,19 +163,19 @@ metadata {
         }
 
         valueTile("cumulativeEnergyCostHour", "cumulativeEnergyCostHour", width: 1, height: 1, decoration: "flat") {
-            state "default", label: 'Per\nHour \n$${currentValue}'
+            state "default", label: 'Per\nHour \n€${currentValue}'
         }
 
         valueTile("cumulativeEnergyCostWeek", "cumulativeEnergyCostWeek", width: 1, height: 1, decoration: "flat") {
-            state "default", label: 'Per\nWeek\n$${currentValue}'
+            state "default", label: 'Per\nWeek\n€${currentValue}'
         }
 
         valueTile("cumulativeEnergyCostMonth", "cumulativeEnergyCostMonth", width: 1, height: 1, decoration: "flat") {
-            state "default", label: 'Per\nMonth\n$${currentValue}'
+            state "default", label: 'Per\nMonth\n€${currentValue}'
         }
 
         valueTile("cumulativeEnergyCostYear", "cumulativeEnergyCostYear", width: 1, height: 1, decoration: "flat") {
-            state "default", label: 'Per\nYear \n$${currentValue}'
+            state "default", label: 'Per\nYear \n€${currentValue}'
         }
 
         controlTile("levelSliderControl", "device.brightnessLevel", "slider", width: 2, height: 1) {
